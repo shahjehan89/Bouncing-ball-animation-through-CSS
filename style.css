@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+    
+}
+div ul{
+    display: flex;
+    border-bottom: 10px solid rgb(255, 255, 255);
+    
+}
+div ul li{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(49, 167, 13);
+    list-style: none;
+    margin:0 20px;
+    border-radius: 50%;
+    animation: bouncy 1s ease-in-out infinite;    
+}
+
+@keyframes bouncy{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-250px);}
+    0%{transform: translateY(0);}
+}
+
+ul li:nth-child(1){
+    animation-delay: 0.2s;
+    background-color: rgb(226, 9, 197);
+}
+ul li:nth-child(2){
+    animation-delay: 0.3s;
+    background-color: rgb(109, 248, 17);
+}
+ul li:nth-child(3){
+    animation-delay: 0.4s;
+    background-color: rgb(15, 242, 250);
+}
+ul li:nth-child(4){
+    animation-delay: 0.5s;
+    background-color: rgb(10, 255, 71);
+}
+ul li:nth-child(5){
+    animation-delay: 0.6s;
+    background-color: rgb(17, 255, 144);
+}
+
